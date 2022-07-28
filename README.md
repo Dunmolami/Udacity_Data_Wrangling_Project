@@ -1,8 +1,10 @@
 # Udacity_Data_Wrangling_Project
 
- 
+WeRateDogs ( a Twitter account that rate dogs) data was gathered from CSv file, URL and twitter API. After gathering all the data, the data was assessed to identify quality and tidiness issues, the issues identified were cleaned and saved as CSV. The cleaned data was then analyzed, visualized, and the findings wereclearly communicate as a report.
 
 ### Quality issues
+The quality issues identified include: 
+
 The names of the dogs in P1, P2 and P3 are not consistent, some start with Capital letter and some with small letter in df_predict
 
 Expanded_urls has 59 missing values.There are lot of missing values in retweeted_status_user_id, retweeted_status_id, retweeted_status_timestamp, in_reply_to_status_id and in_reply_to_user_id in df_dogs
